@@ -63,6 +63,7 @@ struct Protocolo{
         }
     }
     //mensaje que se envia
+    //hola
     msgMen = inst.substr(i,inst.size());
     
     return "N"+completeZero(msgMen)+msgMen+completeZero(msgNick)+msgNick;
